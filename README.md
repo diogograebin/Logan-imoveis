@@ -1,5 +1,5 @@
 # Logan imoveis
- Primeiro projeto básico para praticar HTML e CSS
+ Projetos pessoais utilizados para prática das tecnologias básicas HTML e CSS
 
- Segue link para visualização do projeto: 
+ Link para visualização do projeto Logan Imóveis: 
  https://diogograebin.github.io/Logan-imoveis/index/index.html
