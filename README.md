@@ -2,4 +2,4 @@
  Projetos pessoais utilizados para prática das tecnologias básicas HTML e CSS
 
  Link para visualização do projeto Logan Imóveis: 
- https://diogograebin.github.io/Logan-imoveis/index/index.html
+ https://diogograebin.github.io/Projetos-pessoais-HTML-CSS/logan-imoveis/index.html
