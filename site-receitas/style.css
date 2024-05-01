@@ -3,12 +3,12 @@
     padding: 0;
 }
 body{
-    background: #ebe3b7;
+    background: #E0E0E0;
     font-family: "Anek Devanageri", sans-serif;
 }
 a{
     text-decoration: none;
-    color: white;
+    color: #F5F0F0;
     padding: 10px;
 }
 
@@ -17,7 +17,7 @@ h1{
 }
 
 img{
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 ul, ol{
@@ -40,15 +40,15 @@ footer{
 }
 
 #food{
-    color: #e9d357;
+    color: #FFAA00;
 }
 
 #branco{
-    color: white;
+    color: #FFFFFF;
 }
 
 #cabecalho{
-    background: #A6270A;
+    background: #990000;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -68,12 +68,14 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #FFFFFF;
     gap: 10px;
+    
 }
 
 #links-cabecalho a:hover{
-    color: #e9d357;
+    color: #FFAA00;
+    transition: color 0.5s ease; /* Transição de cor suave */
 }
 #bloco-receitas{
     display: flex;
@@ -86,9 +88,9 @@ footer{
 .conteudo{
     display: flex;
     justify-content: space-between;
-    background: rgba(248, 248, 255, 0.63);
+    background: #FFFFFF;
     padding: 30px;
-    border-radius: 2px;
+    border-radius: 5px;
     margin-bottom: 15px;
     
 
@@ -96,6 +98,8 @@ footer{
 
 .texto{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
     text-align: justify;
     align-items: center;
 }
@@ -104,8 +108,8 @@ footer{
     align-items: center;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #A6270A;
-    color: #fff;
+    background-color: #990000;
+    color: #FFFFFF;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -126,27 +130,28 @@ footer{
     gap: 15px;
     padding: 20px;
     border-radius: 5px;
-    background: rgba(206, 206, 207, 0.63);
+    background: #E0E0E0;
     width: 250px;
 }
 
 .titulo-item-receita{
-    color: white;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #A6270A;
+    background: #990000;
     padding: 10px;
     border-radius: 5px;
 }
 
 .conteudo-receitas a, .botao-receitas{
-    background-color: #A6270A;
-    border-radius: 10px;
+    background-color: #990000;
+    border-radius: 5px;
 }
 
 .conteudo-receitas a:hover, .botao-receitas:hover{
-    background: #751e0a;
+    background: #880303;
+    transition: color 0.5s ease; /* Transição de cor suave */
 }
 
 .receita-completa{
@@ -156,17 +161,36 @@ footer{
     align-items: left;
     justify-content: center;
     text-align: justify;
-    margin: 30px;
+    margin: 30px 50px;
     padding: 60px;
-    border-radius: 10px;
-    background-color: #fff;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+#pagina-batata, #pagina-hamburger, #pagina-pizza, #pagina-pastel, #pagina-croissant, #pagina-cupcake{ 
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 #pagina-batata{
     background-image: url(imagens/batata-frita-capa.png);
-    opacity: 0.7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+#pagina-hamburger{
+    background-image: url(imagens/hamburger-capa.png);
+}
+#pagina-pizza{
+    background-image: url(imagens/pizza-capa.png);
+}
+#pagina-pastel{
+    background-image: url(imagens/pastel-capa.png);
+}
+#pagina-croissant{
+    background-image: url(imagens/croassaint-capa.png);
+}
+#pagina-cupcake{
+    background-image: url(imagens/cup-cake-capa.png);
 }
 
