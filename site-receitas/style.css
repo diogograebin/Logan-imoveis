@@ -16,6 +16,11 @@ h1{
     font-size: 2.4em;
 }
 
+img{
+    border-radius: 5px;
+}
+
+
 #logo{
     display: flex;
     align-items: center;
@@ -37,6 +42,15 @@ h1{
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    width: 100%;
+}
+
+#pagina{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 #links-cabecalho{
@@ -44,4 +58,36 @@ h1{
     align-items: center;
     justify-content: center;
     color: white;
+    gap: 10px;
+}
+
+#links-cabecalho a:hover{
+    color: #e9d357;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(248, 248, 255, 0.63);
+    padding: 30px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+
+}
+
+.texto{
+    padding: 20px;
+    text-align: justify;
+    align-items: center;
+}
+
+.botao-receitas{
+    align-items: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A6270A;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid red;
 }
