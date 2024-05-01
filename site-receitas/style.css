@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ebe3b7;
+    font-family: "Anek Devanageri", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    font-size: 2.4em;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#food{
+    color: #e9d357;
+}
+
+#branco{
+    color: white;
+}
+
+#cabecalho{
+    background: #A6270A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#links-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
