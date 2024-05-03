@@ -139,9 +139,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #990000;
+    background: #000000;
     padding: 10px;
     border-radius: 5px;
+    width: 270px;
 }
 
 .conteudo-receitas a, .botao-receitas{
