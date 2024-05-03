@@ -1,4 +1,4 @@
-# Logan imoveis
+# Projetos Pessoais desenvolvidos somente com as tecnologias HTML 5 e CSS 3
  Projetos pessoais utilizados para prática das tecnologias básicas HTML e CSS
 
  Link para visualização do projeto Logan Imóveis: 
