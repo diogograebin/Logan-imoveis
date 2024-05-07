@@ -195,3 +195,76 @@ footer{
     background-image: url(imagens/cup-cake-capa.png);
 }
 
+@media screen and (max-width: 1020px){
+    #pagina{
+        width: 90%;
+    }
+    #foto-home{
+        width: 270px;
+    }
+
+    #logo h1{
+        font-size: 1.4rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 70px;
+    }
+
+    #links-cabecalho{
+        padding: 5px;
+        display: flex;
+        text-align: center;
+        align-items: baseline;
+        font-size: 0.9rem;
+        width: 250px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .texto h2{
+        font-size: 1.6rem;
+        width: 300px;
+        display: inline;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .botao-receitas a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        text-align: center; /* Alinha o texto horizontalmente dentro do botão */
+        width: 200px;
+        padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+        text-decoration: none;
+        border: none; /* Remova a borda se não for necessário */
+    }
+    
+
+    .conteudo-receitas, .bloco-receitas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 250px;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .item-grade-receita a{
+        font-size: 1.3rem;
+        width: 100px;
+        text-align: center;
+    }
+
+    .receita-completa{
+        padding: 20px;
+        margin: 20px;
+    }
+}
