@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+
+/* MODIFICAÇÕES GERAIS*/
+
 body{
     font-family: Kanit, sans-serif;
     background-color: #262626;
@@ -28,6 +31,7 @@ footer{
     margin: 10px 40px;
 }
 
+/*CONFIGURAÇÕES DO CABEÇALHO*/
 
 #cabecalho{
     background-color: #0D0D0D;
@@ -37,13 +41,13 @@ footer{
     flex-direction: row-reverse;
     justify-content: space-around;
 }
+
 #titulo-cabecalho{
     font-size: 1.6rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding-top: 5px;
-    
+    padding-top: 5px; 
 }
 
 #links-cabecalho{
@@ -64,6 +68,8 @@ footer{
 #links-cabecalho :hover{
     color: #56DACC;
 }
+
+/*CONFIGURAÇÕES DO PÁGINA PRINCIPAL*/
 
 #pagina{
     height: 100%;
@@ -91,6 +97,8 @@ footer{
 #texto-home h2{
     font-size: 2rem;
 }
+
+/*CONFIGURAÇÕES DO CATÁLOGO DE FILMES*/
 
 .catalogo{
     display: flex;
@@ -141,6 +149,8 @@ footer{
     color: #56DACC;
 }
 
+/*CONFIGURAÇÕES DENTRO DA PÁGINA DO FILME*/
+
 .conteudo-filme{
     background-color: #262626;
     width: 1000px;
@@ -149,6 +159,7 @@ footer{
     align-items: left;
     justify-content: space-around;
     padding: 20px;
+    border-radius: 15px;
 }
 
 .conteudo-filme img{
@@ -159,6 +170,10 @@ footer{
 .texto-filme{
     width: 600px;
     padding: 20px;
+}
+
+.texto-filme h2{
+    color: #56DACC;
 }
 
 .texto-filme a {
