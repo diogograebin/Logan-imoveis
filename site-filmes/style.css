@@ -268,7 +268,7 @@ footer{
 }
 
 /* Estilos para tela menor (responsivo) */
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1300px) {
     #pagina {
         width: 80%;
         flex-direction: column;
@@ -276,7 +276,6 @@ footer{
 
     #texto-home, .texto-sobre {
         width: 100%;
-        border: 1px solid red;
         display: flex;
         align-items: center;
         justify-content: center;
