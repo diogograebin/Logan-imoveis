@@ -120,7 +120,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .item-catalogo-filme{
@@ -130,7 +130,7 @@ footer{
     align-items: center;
     padding: 10px 20px 20px 20px;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 10px;;
     margin: auto;
     transition: background-color 0.6s ease;
 }
@@ -159,7 +159,7 @@ footer{
     align-items: left;
     justify-content: space-around;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .conteudo-filme img{
@@ -183,10 +183,64 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
-.texto-filme a:hover{
+.texto-filme a:hover, #botao-enviar input:hover{
     background-color: #56DACC;
     transition: background-color 0.6s ease;
 }
 
+/* PÁGINA DE CONTATO */
+
+#contato {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato h1 {
+    color: #56DACC;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#contato-email, #contato-texto {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#contato-email input, #contato-texto textarea {
+    font-family: Kanit, sans-serif;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    color: #F2F2F2;
+    background-color: #262626;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box; /* Add this line */
+}
+
+#contato-email input {
+    height: 40px; /* Adjust the height to match the textarea */
+}
+
+#contato-texto textarea {
+    resize: none;
+    height: 200px; /* Adjust the height as needed */
+}
+
+#botao-enviar input {
+    font-family: Kanit, sans-serif;
+    display: flex;
+    width: 100%;
+    background-color: #555;
+    color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box; /* Add this line */
+}
