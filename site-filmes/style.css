@@ -69,7 +69,7 @@ footer{
     color: #56DACC;
 }
 
-/*CONFIGURAÇÕES DO PÁGINA PRINCIPAL*/
+/*CONFIGURAÇÕES DO PÁGINA PRINCIPAL E PÁGINA - SOBRE*/
 
 #pagina{
     height: 100%;
@@ -91,11 +91,33 @@ footer{
     justify-content: center;
     text-align: justify;
     width: 1100px;
-
+    text-align: left;
 }
 
-#texto-home h2{
+.texto-home h2{
     font-size: 2rem;
+}
+
+.texto-home h3{
+    text-align: left;
+    border: 1px solid red;
+}
+
+.texto-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 1100px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.6s ease;
+}
+
+.texto-sobre:hover{
+    background-color: #555;
+    color: #111111
 }
 
 /*CONFIGURAÇÕES DO CATÁLOGO DE FILMES*/
