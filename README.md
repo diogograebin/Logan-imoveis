@@ -7,7 +7,7 @@
  Link para visualização do projeto Food Always, site de receitas:
  https://diogograebin.github.io/Projetos-pessoais-HTML-CSS/site-receitas/index.html
 
-Link para visualização do projeto FilmFusion, site de receitas:
+Link para visualização do projeto FilmFusion, site com informações de filmes:
  https://diogograebin.github.io/Projetos-pessoais-HTML-CSS/site-filmes/index.html
 
  
